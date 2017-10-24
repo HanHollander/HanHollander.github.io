@@ -23,9 +23,9 @@
         <h4><b>J.P. HOLLANDER</b></h4>
     </div>
         <div class="w3-bar-block">
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ABOUT</a>
-        <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>PROJECTS</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        <i class="fa fa-th-large fa-fw w3-margin-right"></i>ABOUT
+        <i class="fa fa-user fa-fw w3-margin-right"></i>PROJECTS
+        <i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT
     </div>
 </nav>
 
@@ -56,50 +56,6 @@
         </div>
     </div>
     </header>
-
-    <!-- First Grid-->
-    <div id="projectlist">
-    <div class="w3-row-padding" id="projectlist">
-        <div class="w3-third w3-container w3-margin-bottom">
-            <div class="w3-container w3-white">
-                <p><b>1Lorem Ipsum</b></p>
-                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            </div>
-        </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-            <div class="w3-container w3-white">
-                <p><b>2Lorem Ipsum</b></p>
-                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            </div>
-        </div>
-        <div class="w3-third w3-container">
-            <div class="w3-container w3-white">
-                <p><b>3Lorem Ipsum</b></p>
-                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            </div>
-        </div>
-    </div>
-    <div id="projectlist">
-    <div class="w3-row-padding" id="projectlist">
-        <div class="w3-third w3-container w3-margin-bottom">
-            <div class="w3-container w3-white">
-                <p><b>4Lorem Ipsum</b></p>
-                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            </div>
-        </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-            <div class="w3-container w3-white">
-                <p><b>5Lorem Ipsum</b></p>
-                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            </div>
-        </div>
-        <div class="w3-third w3-container">
-            <div class="w3-container w3-white">
-                <p><b>6Lorem Ipsum</b></p>
-                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            </div>
-        </div>
-    </div>
 
 
     <!-- Contact Section -->
@@ -141,18 +97,7 @@
 <!-- End page content -->
 </div>
 
-<script>
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
-</script>
+<script src="/lib/w3.js"></script>
 
 </body>
 </html>
