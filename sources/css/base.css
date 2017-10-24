@@ -1,6 +1,4 @@
 
-.nonscroll  {
-    background-image: "/sources/images/background_home.jpg";
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body {
+    background-color: yellow;
 }
