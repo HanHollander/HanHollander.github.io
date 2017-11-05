@@ -1,1 +1,5 @@
-
+.my-content
+{
+    position:absolute;
+    overflow-y:scroll;
+}​
