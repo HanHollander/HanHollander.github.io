@@ -1,6 +1,6 @@
 function open_menu() {
     var x = document.getElementById("menu");
-    x.style.width = "250px";
+    x.style.width = "10%";
     x.style.fontSize = "16px";
     // x.style.paddingTop = "10%";
     x.style.display = "block";
