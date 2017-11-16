@@ -20,7 +20,8 @@
 
   to {
     opacity: 1;
-    transform: none;
+    /*transform: none;*/
+    left:0px;
   }
 }
 .my-animate-left-2 {
