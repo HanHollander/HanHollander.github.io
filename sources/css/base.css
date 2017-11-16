@@ -21,7 +21,7 @@
   to {
     opacity: 1;
     /*transform: none;*/
-    left:0px;
+    left:0;
   }
 }
 .my-animate-left-2 {
