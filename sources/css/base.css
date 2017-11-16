@@ -7,18 +7,10 @@
     max-width: 1600px;
 }​
 
-.my-title-m
-{
-    /*top:0;*/
-    /*right:0;*/
-    /*left:0;*/
-    width:100%;
-    max-width: 1600px;
-}​
 .my-animate-left {
     color:#fff!important;background-color:#795548!important;
     position: relative;
-    animation: animate-left;
+    animation: animate-left 0.4s;
 }
 @keyframes animate-left {
   from {
