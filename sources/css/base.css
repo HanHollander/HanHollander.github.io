@@ -9,9 +9,9 @@
 
 .my-expand-top-left {
     position: relative;
-    animation: animateleft 0.4s
+    animation: expand_top_left 0.4s
 }
-@keyframes animateleft {
+@keyframes expand_top_left {
   from {
     opacity: 0;
     left:0
