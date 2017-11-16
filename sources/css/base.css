@@ -9,7 +9,7 @@
 
 .my-animate-left {
     position: relative;
-    animation: animateleft 0.4s;
+    animation: animateleft 0.4s
 }
 @keyframes animateleft {
   from {
