@@ -1,6 +1,7 @@
-.my-main {
+.my-body{
     padding-top: 2.5%;
-    box-shadow: 3px 3px 5px grey;
     padding-bottom: 5%;
-
+}
+.my-main {
+    box-shadow: 3px 3px 5px grey;
 }
