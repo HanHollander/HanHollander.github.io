@@ -7,7 +7,7 @@
     margin:0 auto;
 }
 .my-toplanguage {
-    height: 100%;
+    height: document.getElementById("topmenu").height;
 }
 .my-languageimg {
     height:inherit;
