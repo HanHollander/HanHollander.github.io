@@ -16,7 +16,8 @@
     max-width: 1600px;
 }​
 .my-animate-left {
-    animation-name: animate-left;
+    position: relative;
+    animation: animate-left;
 }
 @keyframes animate-left {
   from {
