@@ -14,23 +14,36 @@
 </style>
 
 <!-- BODY -->
-<body class="" style="" id="body">
+<body class="w3-content" style="width:100%" id="body">
 
     <!-- MENU -->
-    <nav class="" style="" id="menu">
-
+    <nav class="w3-sidebar w3-bar-block w3-card w3-padding w3-pale-red" style="display:none" id="menu">
+         <i onclick="close_menu()" class="fa fa-remove w3-xlarge w3-button w3-theme w3-hover-red"></i>
+        <div class="w3-center w3-padding-32">
+            <h1 class="w3-xxxlarge w3-text-theme">MENU</h1>
+            <a href="/en/home" class="w3-bar-item w3-button w3-hover-red w3-center"><i class="fa fa-home"></i> Home</a>
+            <a href="/en/home" class="w3-bar-item w3-button w3-hover-red w3-center"><i class="fa fa-id-card"></i> About</a>
+            <a href="/en/home" class="w3-bar-item w3-button w3-hover-red w3-center"><i class="fa fa-folder-open"></i> Projects</a>
+            <a href="/en/home" class="w3-bar-item w3-button w3-hover-red w3-center"><i class="fa fa-at"></i> Contact</a>
+        </div>
     </nav>
 
     <!-- TITLE -->
-    <header class="" id="title">
-
+    <header class="w3-container w3-theme w3-padding w3-pale-red" id="title">
+      <i onclick="open_menu()" class="fa fa-bars w3-xlarge w3-button w3-theme w3-hover-red"></i>
+      <div class="w3-center">
+          <h4 class=""> - J.P. HOLLANDER - </h4>
+          <h1 class="w3-xxxlarge">HOMEPAGE</h1>
+      </div>
     </header>
 
+
+
     <!-- PAGE -->
-    <div class="" id="page">
+    <div class="w3-main w3-padding-large" id="page">
 
         <!-- CONTENT -->
-        <div class="" id="content">
+        <div class="w3-containter w3-padding-large" id="loremipsum">
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
 
@@ -69,7 +82,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="" id="footer">
+    <footer class="w3-container w3-theme-dark w3-padding-16 w3-pale-red" id="footer">
       <p>This website uses: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>,
           <a href="https://www.w3schools.com/w3js/default.asp" target="_blank">w3.js</a> and
           <a href="https://daneden.github.io/animate.css/" target="_blank">animate.css</a></p>
