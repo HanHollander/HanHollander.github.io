@@ -12,13 +12,14 @@ function languagebar() {
 
 var topbartimer;
 function topbar() {
+    clearInterval(topbartimer);
     var x = document.getElementById("topbar-dd");
     var y = document.getElementById("topbar-dd-i");
-    var z = document.getElementById("topbar-ddc")
+    var z = document.getElementById("topbar-ddc");
     var sy;
     var dsy;
     if (x.style.display == "block") {
-        x.style.display = "inline-block"
+        x.style.display = "inline-block";
         sy = 1;
         z.style.transform = "scaleY(1)";
         dsy = 0.1;
@@ -33,7 +34,7 @@ function topbar() {
                     z.style.transform = "scaleY(0)";
                 }
             }, 25);
-        y.style.transform = "rotate(0deg)"
+        y.style.transform = "rotate(0deg)";
     } else {
         x.style.display = "block"
         sy = 0;
