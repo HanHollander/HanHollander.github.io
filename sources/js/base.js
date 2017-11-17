@@ -1,9 +1,11 @@
 function topbar() {
-    var x = document.getElementById("topbar");
-    if (x.style.display == "none") {
-        x.style.display = "block";
+    var y = document.getElementById("topbar-dd");
+    var z = document.getElementById("topbar-dd-i");
+    if (y.style.display == "none") {
+        y.style.display = "block";
+        z.style.transform = "rotate(90)"
     } else {
-        x.style.display = "none";
+        y.style.display = "none";
     }
 
 }
