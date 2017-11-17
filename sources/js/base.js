@@ -14,12 +14,14 @@ function topbar() {
     var x = document.getElementById("topbar-dd");
     var y = document.getElementById("topbar-dd-i");
     var z = document.getElementById("topbar-ddc")
+    var sy;
+    var dsy;
+    var timer;
     if (x.style.display == "block") {
         x.style.display = "inline-block"
-        var sy = 1;
+        sy = 1;
         z.style.transform = "scaleY(sy)";
-        var dsy = 0.1;
-        var timer;
+        dsy = 0.1;
         timer = setInterval(
             function() {
                 sy = sy - dsy;
@@ -33,10 +35,9 @@ function topbar() {
         y.style.transform = "rotate(0deg)"
     } else {
         x.style.display = "block"
-        var sy = 0;
+        sy = 0;
         z.style.transform = "scaleY(sy)";
-        var dsy = 0.1;
-        var timer;
+        dsy = 0.1;
         timer = setInterval(
             function() {
                 sy = sy + dsy;
