@@ -10,26 +10,26 @@ function languagebar() {
     }
 }
 
+var topbartimer;
 function topbar() {
     var x = document.getElementById("topbar-dd");
     var y = document.getElementById("topbar-dd-i");
     var z = document.getElementById("topbar-ddc")
     var sy;
     var dsy;
-    var timer;
     if (x.style.display == "block") {
         x.style.display = "inline-block"
         sy = 1;
         z.style.transform = "scaleY(1)";
         dsy = 0.1;
-        timer = setInterval(
+        topbartimer = setInterval(
             function() {
                 sy = sy - dsy;
                 console.log(sy);
                 z.style.transform = "scaleY("+ sy + ")";
                 // clear the timer at 400px to stop the animation
                 if (sy < 0) {
-                    clearInterval(timer);
+                    clearInterval(topbartimer);
                     z.style.transform = "scaleY(0)";
                 }
             }, 25);
@@ -39,13 +39,13 @@ function topbar() {
         sy = 0;
         z.style.transform = "scaleY(0)";
         dsy = 0.1;
-        timer = setInterval(
+        topbartimer = setInterval(
             function() {
                 sy = sy + dsy;
                 z.style.transform = "scaleY("+ sy + ")";
                 // clear the timer at 400px to stop the animation
                 if (sy > 1) {
-                    clearInterval(timer);
+                    clearInterval(topbartimer);
                     z.style.transform = "scaleY(1)";
                 }
             }, 25);
