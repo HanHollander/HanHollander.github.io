@@ -12,6 +12,10 @@
     box-shadow: 0px 0px 5px grey;
 }
 
+/*TOPBAR*/
+#topbar {
+    background-color: #1250b5
+}
 
 /*CENTER*/
 #indexp {
@@ -34,6 +38,10 @@
     padding-top: 7px;
     padding-bottom: 7px;
     color: #000000;
+    background-color: #5c8cdb
+}
+.my-button:hover {
+    background-color: #1250b5
 }
 
 .my-dropdown {
