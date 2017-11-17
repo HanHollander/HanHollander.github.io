@@ -32,7 +32,7 @@ function topbar() {
                     clearInterval(timer);
                     z.style.transform = "scaleY(0)";
                 }
-            }, 50);
+            }, 25);
         y.style.transform = "rotate(0deg)"
     } else {
         x.style.display = "block"
@@ -48,7 +48,7 @@ function topbar() {
                     clearInterval(timer);
                     z.style.transform = "scaleY(1)";
                 }
-            }, 50);
+            }, 25);
         y.style.transform = "rotate(180deg)"
     }
 }
