@@ -75,3 +75,6 @@
     padding-bottom: 5px;
     background-color: #ffffff;
 }
+.my-languagebar:hover {
+    background-color: #f3f3f3;
+}
