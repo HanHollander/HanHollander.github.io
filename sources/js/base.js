@@ -2,40 +2,62 @@ var languagebartimer;
 function languagebar() {
     clearInterval(languagebartimer);
     var x = document.getElementById("languagebar-dd");
-    var z = document.getElementById("languagebar-ddc")
+    var z = document.getElementById("languagebar-ddc");
+    var y1 = document.getElementById("lb-i-1");
+    var y2 = document.getElementById("lb-i-2");
+    var hy;
     var sy;
     var dsy;
     if (x.style.display == "block") {
+
         x.style.display = "inline-block";
+
         sy = 1;
+        hy = 30;
         z.style.transform = "scaleY(1)";
+        y1.style.height = "30px";
+        y2.style.height = "30px";
+
         dsy = 0.1;
         languagebartimer = setInterval(
             function() {
                 sy = sy - dsy;
                 console.log(sy);
                 z.style.transform = "scaleY("+ sy + ")";
+                y1.style.height = (sy*hy) + "px";
+                y2.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy < 0) {
                     clearInterval(languagebartimer);
                     z.style.transform = "scaleY(0)";
                     z.style.display = "none";
+                    y1.style.height = "0px";
+                    y2.style.height = "0px";
                 }
             }, 25);
     } else {
         x.style.display = "block";
         z.style.display = "block";
+
         sy = 0;
+        hy = 0;
         z.style.transform = "scaleY(0)";
+        y1.style.height = "0px";
+        y2.style.height = "0px";
+
         dsy = 0.1;
         languagebartimer = setInterval(
             function() {
                 sy = sy + dsy;
                 z.style.transform = "scaleY("+ sy + ")";
+                y1.style.height = (sy*hy) + "px";
+                y2.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy > 1) {
                     clearInterval(languagebartimer);
                     z.style.transform = "scaleY(1)";
+                    y1.style.height = "30px";
+                    y2.style.height = "30px";
                 }
             }, 25);
     }
