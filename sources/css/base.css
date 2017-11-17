@@ -60,3 +60,9 @@
 .my-dropdown:hover .my-dropdown-content {
     display: block;
 }
+
+.my-languagebar {
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
