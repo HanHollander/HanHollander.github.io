@@ -5,7 +5,7 @@ function topbar() {
     if (z.style.display == "none") {
         x.style.display = "block"
         z.style.display = "block";
-        // z.style.transform = "rotate(90)"
+        y.style.transform = "rotate(90)"
     } else {
         x.style.display = "inline-block"
         z.style.display = "none";
