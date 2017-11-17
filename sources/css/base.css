@@ -27,3 +27,10 @@
     height: 30%;
     margin: auto;
 }
+
+.my-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
