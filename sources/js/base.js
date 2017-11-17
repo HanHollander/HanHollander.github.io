@@ -18,7 +18,7 @@ function topbar() {
         x.style.display = "inline-block"
         var sy = 1;
         z.style.transform = "scaleY(sy)";
-        var dsy = 0.01;
+        var dsy = 0.1;
         var timer;
         timer = setInterval(
             function() {
@@ -29,13 +29,13 @@ function topbar() {
                 if (sy == 0) {
                     clearInterval(timer);
                 }
-            }, 10);
+            }, 1000);
         y.style.transform = "rotate(0deg)"
     } else {
         x.style.display = "block"
         var sy = 0;
         z.style.transform = "scaleY(sy)";
-        var dsy = 0.01;
+        var dsy = 0.1;
         var timer;
         timer = setInterval(
             function() {
@@ -45,7 +45,7 @@ function topbar() {
                 if (sy == 1) {
                     clearInterval(timer);
                 }
-            }, 10);
+            }, 1000);
         y.style.transform = "rotate(180deg)"
     }
 }
