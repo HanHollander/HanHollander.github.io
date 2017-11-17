@@ -87,7 +87,7 @@
 }
 
 .my-animate-expand {
-    animation: animateexpand 0.7s;
+    animation: animateexpand 1s;
 } @keyframes animateexpand {
     from {
         height:0px;
