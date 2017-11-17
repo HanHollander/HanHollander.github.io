@@ -88,7 +88,7 @@
 
 .my-animate-expand {
     transform-origin: center top;
-    animation: animateexpand 1s;
+    animation: animateexpand .4s;
 } @keyframes animateexpand {
     from {
         transform:scaleY(0);
