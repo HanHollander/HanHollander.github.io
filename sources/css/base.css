@@ -87,7 +87,7 @@
 }
 
 .my-animate-expand {
-    transform-origin: 50% 0%;
+    transform-origin: center top;
     animation: animateexpand 1s;
 } @keyframes animateexpand {
     from {
