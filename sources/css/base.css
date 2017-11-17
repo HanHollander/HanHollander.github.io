@@ -50,7 +50,8 @@
 }
 
 .my-dropdown-content {
-    display: none;
+    display: block;
+    transform: scaleY(0);
     position: absolute;
     background-color: #ffffff;
     min-width: 100%;
