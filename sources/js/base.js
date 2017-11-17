@@ -22,7 +22,8 @@ function topbar() {
         timer = setInterval(
             function() {
                 sy = sy - dsy;
-                z.style.transform = "scaleY(sy)";   
+                console.log(sy);
+                z.style.transform = "scaleY(sy)";
                 // clear the timer at 400px to stop the animation
                 if (sy == 0) {
                     clearInterval(timer);
