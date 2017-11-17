@@ -17,6 +17,7 @@ function topbar() {
     if (x.style.display == "block") {
         x.style.display = "inline-block"
         var sy = 1;
+        z.style.transform = "scaleY(sy)";
         var dsy = 0.01;
         var timer;
         timer = setInterval(
@@ -33,6 +34,7 @@ function topbar() {
     } else {
         x.style.display = "block"
         var sy = 0;
+        z.style.transform = "scaleY(sy)";
         var dsy = 0.01;
         var timer;
         timer = setInterval(
