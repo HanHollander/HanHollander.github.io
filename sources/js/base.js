@@ -63,13 +63,11 @@ function topbar() {
                 if (sy < 0) {
                     clearInterval(topbartimer);
                     z.style.transform = "scaleY(0)";
-                    z.style.display = "none";
                 }
             }, 25);
         y.style.transform = "rotate(0deg)";
     } else {
         x.style.display = "block"
-        z.style.display = "block";
         sy = 0;
         z.style.transform = "scaleY(0)";
         dsy = 0.1;
