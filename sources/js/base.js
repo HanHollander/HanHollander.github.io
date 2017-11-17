@@ -21,5 +21,6 @@ function topbar() {
     } else {
         x.style.display = "inline-block"
         z.style.display = "none";
+        y.style.transform = "rotate(0deg)"
     }
 }
