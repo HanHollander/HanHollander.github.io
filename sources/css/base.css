@@ -41,6 +41,7 @@
     background-color: #5c8cdb;
     font-size: 16;
     width:100%;
+    text-decoration: none;
 }
 .my-button:hover {
     background-color: #1250b5
