@@ -79,4 +79,5 @@
 }
 .my-languagebar:hover {
     background-color: #5c8cdb;
+    cursor:pointer;
 }
