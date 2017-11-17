@@ -14,7 +14,7 @@ function topbar() {
     var x = document.getElementById("topbar-dd");
     var y = document.getElementById("topbar-dd-i");
     var z = document.getElementById("topbar-ddc")
-    if (z.style.transform == scaleY(1)) {
+    if (x.style.display == "block") {
         x.style.display = "inline-block"
         var sy = 1;
         var dsy = 0.01;
