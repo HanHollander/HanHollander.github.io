@@ -87,7 +87,6 @@
 }
 
 .my-animate-expand {
-    position: relative;
     animation: animateexpand 0.4s;
 } @keyframes animateexpand {
     from {
