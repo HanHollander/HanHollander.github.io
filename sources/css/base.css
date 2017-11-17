@@ -38,7 +38,8 @@
     padding-top: 7px;
     padding-bottom: 7px;
     color: #000000;
-    background-color: #5c8cdb
+    background-color: #5c8cdb;
+    width:100%;
 }
 .my-button:hover {
     background-color: #1250b5
