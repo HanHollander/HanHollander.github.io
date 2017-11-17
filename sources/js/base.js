@@ -21,7 +21,6 @@ function languagebar() {
                     z.style.transform = "scaleY(0)";
                 }
             }, 25);
-        y.style.transform = "rotate(0deg)";
     } else {
         x.style.display = "block"
         sy = 0;
@@ -37,7 +36,6 @@ function languagebar() {
                     z.style.transform = "scaleY(1)";
                 }
             }, 25);
-        y.style.transform = "rotate(180deg)"
     }
 }
 
