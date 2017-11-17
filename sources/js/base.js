@@ -1,5 +1,5 @@
-function dropdown_menu() {
-    var x = document.getElementById(arguments[0]);
+function topbar() {
+    var x = document.getElementById("topbar");
     if (x.style.display == "none") {
         x.style.display = "block";
     } else {
