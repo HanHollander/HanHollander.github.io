@@ -90,7 +90,7 @@ function topbar() {
                 if (sy > 1) {
                     clearInterval(topbartimer);
                     z.style.transform = "scaleY(1)";
-                    z.style.height = "60px";
+                    z.style.height = hys + "px";
                 }
             }, 25);
         y.style.transform = "rotate(180deg)"
