@@ -4,6 +4,7 @@ function languagebar() {
     var x = document.getElementById("languagebar-dd");
     var z = document.getElementById("languagebar-ddc")
     var sy;
+    var hy;
     var dsy;
     if (x.style.display == "block") {
         x.style.display = "inline-block";
@@ -30,6 +31,7 @@ function languagebar() {
         x.style.display = "block";
         z.style.display = "block";
         sy = 0;
+        hy = 0;
         z.style.transform = "scaleY(0)";
         z.style.height = "0px";
         dsy = 0.1;
