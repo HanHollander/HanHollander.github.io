@@ -5,6 +5,7 @@ function languagebar() {
     var z = document.getElementById("languagebar-ddc")
     var sy;
     var dsy;
+    var hy=60;
     if (x.style.display == "block") {
         x.style.display = "inline-block";
         sy = 1;
