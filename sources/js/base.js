@@ -8,6 +8,7 @@ function languagebar() {
     if (x.style.display == "block") {
         x.style.display = "inline-block";
         sy = 1;
+        hy = 60;
         z.style.transform = "scaleY(1)";
         dsy = 0.1;
         languagebartimer = setInterval(
@@ -15,11 +16,13 @@ function languagebar() {
                 sy = sy - dsy;
                 console.log(sy);
                 z.style.transform = "scaleY("+ sy + ")";
+                z.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy < 0) {
                     clearInterval(languagebartimer);
                     z.style.transform = "scaleY(0)";
                     z.style.display = "none";
+                    z.style.height = "0px";
                 }
             }, 25);
     } else {
@@ -32,10 +35,12 @@ function languagebar() {
             function() {
                 sy = sy + dsy;
                 z.style.transform = "scaleY("+ sy + ")";
+                z.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy > 1) {
                     clearInterval(languagebartimer);
                     z.style.transform = "scaleY(1)";
+                    z.style.height = "60px";
                 }
             }, 25);
     }
