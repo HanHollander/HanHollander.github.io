@@ -51,7 +51,7 @@
 
 .my-dropdown-content {
     display: block;
-    transform: scaleY(0);
+    /*transform: scaleY(0);*/
     position: absolute;
     background-color: #5c8cdb;
     min-width: 100%;
