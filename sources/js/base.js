@@ -54,7 +54,8 @@ function topbar() {
     var y = document.getElementById("topbar-dd-i");
     var z = document.getElementById("topbar-ddc");
     var sy;
-    var hy=60;
+    var hys = z.style.height;
+    var hy= hys;
     var dsy;
     if (x.style.display == "block") {
         x.style.display = "inline-block";
