@@ -38,6 +38,7 @@ function languagebar() {
         languagebartimer = setInterval(
             function() {
                 sy = sy + dsy;
+                console.log(sy);
                 z.style.transform = "scaleY("+ sy + ")";
                 z.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
