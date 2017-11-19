@@ -64,6 +64,7 @@
     z-index: 1;
     overflow:hidden;
     transform-origin: center top;
+    height:100%;
 }
 
 /*.my-dropdown:hover .my-dropdown-content {
