@@ -4,14 +4,12 @@ function languagebar() {
     var x = document.getElementById("languagebar-dd");
     var z = document.getElementById("languagebar-ddc")
     var sy;
-    var hy;
     var dsy;
     if (x.style.display == "block") {
         x.style.display = "inline-block";
         sy = 1;
         hy = 60;
         z.style.transform = "scaleY(1)";
-        z.style.height = "60px";
         dsy = 0.1;
         languagebartimer = setInterval(
             function() {
@@ -31,14 +29,11 @@ function languagebar() {
         x.style.display = "block";
         z.style.display = "block";
         sy = 0;
-        hy = 0;
         z.style.transform = "scaleY(0)";
-        z.style.height = "0px";
         dsy = 0.1;
         languagebartimer = setInterval(
             function() {
                 sy = sy + dsy;
-                console.log(sy);
                 z.style.transform = "scaleY("+ sy + ")";
                 z.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
