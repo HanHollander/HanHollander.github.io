@@ -10,6 +10,7 @@ function languagebar() {
         sy = 1;
         hy = 60;
         z.style.transform = "scaleY(1)";
+        z.style.height = "60px";
         dsy = 0.1;
         languagebartimer = setInterval(
             function() {
@@ -30,6 +31,7 @@ function languagebar() {
         z.style.display = "block";
         sy = 0;
         z.style.transform = "scaleY(0)";
+        z.style.height = "0px";
         dsy = 0.1;
         languagebartimer = setInterval(
             function() {
