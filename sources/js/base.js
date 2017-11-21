@@ -60,7 +60,7 @@ function topbar() {
     var hys = h.style.height;
     var pad = h.style.paddingTop;
     console.log(x.style.display);
-    console.log(pad);
+    console.log(1);
     if (x.style.display == "block") {
         x.style.display = "inline-block";
         sy = 1;
