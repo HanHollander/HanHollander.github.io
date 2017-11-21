@@ -56,7 +56,7 @@ function topbar() {
     var sy;
     var dsy;
     var h = document.getElementById("topbar-home");
-    var hy = (h.style.height + h.style.paddingTop * 2) * 4;
+    var hys = (h.style.height + h.style.paddingTop * 2) * 4;
     if (x.style.display == "block") {
         x.style.display = "inline-block";
         sy = 1;
