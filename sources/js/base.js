@@ -54,10 +54,9 @@ function topbar() {
     var y = document.getElementById("topbar-dd-i");
     var z = document.getElementById("topbar-ddc");
     var sy;
+    var hy= 216;
     var dsy;
     var h = document.getElementById("topbar-home");
-    var hys = (h.style.height + h.style.paddingTop * 2) * 4;
-    console.log(hys)
     if (x.style.display == "block") {
         x.style.display = "inline-block";
         sy = 1;
@@ -68,7 +67,7 @@ function topbar() {
                 sy = sy - dsy;
                 console.log(sy);
                 // z.style.transform = "scaleY("+ sy + ")";
-                z.style.height = (sy*hys) + "px";
+                z.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy < 0) {
                     clearInterval(topbartimer);
@@ -86,7 +85,7 @@ function topbar() {
             function() {
                 sy = sy + dsy;
                 // z.style.transform = "scaleY("+ sy + ")";
-                z.style.height = (sy*hys) + "px";
+                z.style.height = (sy*hy) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy > 1) {
                     clearInterval(topbartimer);
