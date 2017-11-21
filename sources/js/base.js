@@ -67,7 +67,7 @@ function topbar() {
                 sy = sy - dsy;
                 console.log(sy);
                 // z.style.transform = "scaleY("+ sy + ")";
-                z.style.height = (sy*hy) + "px";
+                z.style.height = (sy*hys) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy < 0) {
                     clearInterval(topbartimer);
@@ -85,7 +85,7 @@ function topbar() {
             function() {
                 sy = sy + dsy;
                 // z.style.transform = "scaleY("+ sy + ")";
-                z.style.height = (sy*hy) + "px";
+                z.style.height = (sy*hys) + "px";
                 // clear the timer at 400px to stop the animation
                 if (sy > 1) {
                     clearInterval(topbartimer);
