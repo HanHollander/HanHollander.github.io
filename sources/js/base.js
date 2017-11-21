@@ -70,7 +70,7 @@ function topbar() {
         topbartimer = setInterval(
             function() {
                 sy = sy - dsy;
-                sy2 = sy2 - 2 * dsy;
+                sy2 = sy2 + 2 * dsy;
                 // console.log(sy);
                 // z.style.transform = "scaleY("+ sy + ")";
                 z.style.height = (sy*hy) + "px";
