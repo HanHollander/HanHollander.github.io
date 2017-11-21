@@ -64,39 +64,47 @@ function topbar() {
     if (x.style.display == "block") {
         x.style.display = "inline-block";
         sy = 1;
+        sy2 = -1;
         // z.style.transform = "scaleY(1)";
         dsy = 0.1;
         topbartimer = setInterval(
             function() {
                 sy = sy - dsy;
-                console.log(sy);
+                sy2 = sy2 - 2 * dsy;
+                // console.log(sy);
                 // z.style.transform = "scaleY("+ sy + ")";
                 z.style.height = (sy*hy) + "px";
+                y.style.transform = "scaleY(" + sy2 + ")";
                 // clear the timer at 400px to stop the animation
                 if (sy < 0) {
                     clearInterval(topbartimer);
                     // z.style.transform = "scaleY(0)";
                     z.style.height = "0px";
+                    y.style.transform = "scaleY(1)";
                 }
             }, 25);
-        y.style.transform = "rotate(0deg)";
+        // y.style.transform = "rotate(0deg)";
     } else {
         x.style.display = "block"
         sy = 0;
+        sy2 = 1;
         // z.style.transform = "scaleY(0)";
         dsy = 0.1;
         topbartimer = setInterval(
             function() {
                 sy = sy + dsy;
+                sy2 = sy2 - 2 * dsy;
                 // z.style.transform = "scaleY("+ sy + ")";
                 z.style.height = (sy*hy) + "px";
+                y.style.transform = "scaleY(" + sy2 + ")";
                 // clear the timer at 400px to stop the animation
                 if (sy > 1) {
                     clearInterval(topbartimer);
                     // z.style.transform = "scaleY(1)";
                     z.style.height = hy + "px";
+                    y.style.transform = "scaleY(-1)"
                 }
             }, 25);
-        y.style.transform = "rotate(180deg)"
+        // y.style.transform = "rotate(180deg)"
     }
 }
