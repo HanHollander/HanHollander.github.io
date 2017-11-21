@@ -94,7 +94,7 @@ function topbar() {
                 if (sy > 1) {
                     clearInterval(topbartimer);
                     // z.style.transform = "scaleY(1)";
-                    z.style.height = hys + "px";
+                    z.style.height = hy + "px";
                 }
             }, 25);
         y.style.transform = "rotate(180deg)"
