@@ -7,4 +7,5 @@
 .my-slide-button {
     height:100%;
     width:7.5%;
+    min-width: 20px;
 }
