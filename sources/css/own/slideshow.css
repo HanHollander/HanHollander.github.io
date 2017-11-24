@@ -5,7 +5,7 @@
 }
 
 .my-slide-button {
-    height:100%;
+    height:inherit;
     width:7.5%;
     min-width: 20px;
 }
