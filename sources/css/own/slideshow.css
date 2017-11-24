@@ -9,6 +9,10 @@
     width:7.5%;
     min-width: 20px;
 }
+.my-slide-button:hover {
+    background-color: #5c8cdb;
+    color: #000000
+}
 
 .my-slide-image {
     width:100%
