@@ -1,5 +1,5 @@
 .my-d-blue {
-    background-color: #1250b5
+    background-color: #1250b5;
     color: #ffffff;
 }
 
@@ -81,7 +81,7 @@
     overflow: hidden;
 }
 .my-languagebar:hover {
-    background-color: #f9f9f9;
+    background-color: #eeeeee;
     cursor:pointer;
 }
 
