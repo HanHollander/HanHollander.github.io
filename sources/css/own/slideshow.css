@@ -6,10 +6,13 @@
 
 .my-slide-button {
     width:7.5%;
-    min-width: 20px;
-    min-height: 100px;
+    min-width: 20px !important;
 }
 .my-slide-button:hover {
     background-color: #5c8cdb;
     color: #000000
+}
+
+.my-slideshow {
+    width:85%;
 }
