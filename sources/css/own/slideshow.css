@@ -7,7 +7,7 @@
 .my-slide-button {
     width:7.5%;
     min-width: 20px;
-    min-height: inherit;
+    min-height: 100px;
 }
 .my-slide-button:hover {
     background-color: #5c8cdb;
