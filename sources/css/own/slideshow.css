@@ -2,6 +2,7 @@
     display:none;
     padding-left:32;
     padding-right:32;
+    animation:my-fading 1s infinite;
 }
 
 .my-slide-button {
@@ -15,4 +16,15 @@
 
 .my-slideshow {
     width:85%;
+}
+@keyframes my-fading {
+    0% {
+        opacity:0
+    }
+    50% {
+        opacity:1
+    }
+    100% {
+        opacity:0
+    }
 }
