@@ -2,12 +2,14 @@
     background-color: #1250b5;
     color: #ffffff;
 }
-
 .my-l-blue {
     background-color: #5c8cdb;
     color: #000000
 }
-
+.my-d-blue {
+    background-color: #000000;
+    color: #ffffff;
+}
 
 .my-main {
     box-shadow: 0px 0px 0px grey;
