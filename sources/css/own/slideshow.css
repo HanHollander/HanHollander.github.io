@@ -2,7 +2,7 @@
     display:none;
     padding-left:32;
     padding-right:32;
-    animation:my-fading 1s infinite;
+    animation:my-fading 1s;
 }
 
 .my-slide-button {
@@ -21,10 +21,7 @@
     0% {
         opacity:0
     }
-    50% {
-        opacity:1
-    }
     100% {
-        opacity:0
+        opacity:1
     }
 }
