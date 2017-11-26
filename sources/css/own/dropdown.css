@@ -7,7 +7,6 @@
     display: block;
     /*transform: scaleY(0);*/
     position: absolute;
-    background-color: #5c8cdb;
     min-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +33,7 @@
     overflow: hidden;
 }
 .my-languagebar:hover {
-    background-color: #eeeeee;
+    background-color: #e2e2e2;
     cursor:pointer;
 }
 
@@ -66,13 +65,11 @@
     padding-right: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #000000;
-    background-color: #5c8cdb;
     font-size: 20px;
     width:100%;
     text-decoration: none;
 }
 .my-topbar:hover {
-    background-color: #1250b5;
+    background-color: #212121;
     color: #ffffff
 }
