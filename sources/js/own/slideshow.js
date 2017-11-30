@@ -6,6 +6,7 @@ slideshowauto();
 
 function slideshowauto() {
     slideshowbutton(cs);
+    console.log(cs);
     cs = (cs) % slides;
     setTimeout(slideshowauto, 2000);
 }
