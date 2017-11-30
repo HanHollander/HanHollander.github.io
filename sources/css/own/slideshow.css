@@ -29,13 +29,13 @@
 }
 
 #slide-1:target ~ #slider-figure {
-    left: 0%;
+    left: 0% !important;
 }
 #slide-2:target ~ #slider-figure {
-    left: -100%;
+    left: -100% !important;
 }
 #slide-3:target ~ #slider-figure {
-    left: -200%;
+    left: -200% !important;
 }
 
 .my-button-holder {
