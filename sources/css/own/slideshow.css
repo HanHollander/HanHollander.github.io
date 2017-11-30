@@ -28,7 +28,7 @@
     float: left;
 }
 
-#slide-1:target ~ #slider-figure {
+/*#slide-1:target ~ #slider-figure {
     left: 0% !important;
 }
 #slide-2:target ~ #slider-figure {
@@ -36,7 +36,7 @@
 }
 #slide-3:target ~ #slider-figure {
     left: -200% !important;
-}
+}*/
 
 .my-button-holder {
     width: 100%;

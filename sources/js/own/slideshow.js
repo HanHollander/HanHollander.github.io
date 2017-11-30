@@ -5,7 +5,6 @@ var sf = document.getElementById("slider-figure");
 
 function slideshowauto() {
     slideshowbutton(cs);
-    slideshowpicture(cs);
     cs = (cs) % slides;
     setTimeout(slideshowauto(cs), 2000);
 }
@@ -18,6 +17,7 @@ function slideshowbutton(curID) {
         bs[i].style.backgroundColor = "#e0e0e0";
     }
     bs[curID].style.backgroundColor = "#d0d0d0";
+    slideshowpicture(curID);
     cs = curID
 }
 
