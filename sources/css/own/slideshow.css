@@ -33,24 +33,20 @@
     left: 0px;
 }
 
-#slide-2:target ~ .image-holder
-{
+#slide-2:target ~ .image-holder {
     left: -800px;
 }
 
-#slide-3:target ~ .image-holder
-{
+#slide-3:target ~ .image-holder {
     left: -1600px;
 }
 
-.my-button-holder
-{
+.my-button-holder {
     position: relative;
     top: -20px;
 }
 
-.my-slider-button
-{
+.my-slider-button {
     display: inline-block;
     height: 10px;
     width: 10px;
