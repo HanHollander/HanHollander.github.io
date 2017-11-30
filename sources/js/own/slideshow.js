@@ -8,7 +8,7 @@ function slideshowauto() {
     slideshowbutton(cs);
     console.log(cs);
     cs = (cs + 1) % slides;
-    setTimeout(slideshowauto, 2000);
+    setTimeout(slideshowauto, 7500);
 }
 
 function slideshowbutton(curID) {
