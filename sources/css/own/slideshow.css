@@ -1,5 +1,4 @@
-.slider-holder
-{
+.my-slideshow {
     width: 800px;
     height: 400px;
     background-color: yellow;
@@ -10,8 +9,7 @@
     overflow: hidden;
 }
 
-.image-holder
-{
+.my-slide-holder {
     width: 2400px;
     background-color: red;
     height: 400px;
@@ -24,36 +22,34 @@
     transition: left 2s;
 }
 
-.slider-image
-{
+.my-slide {
     float: left;
     margin: 0px;
     padding: 0px;
     position: relative;
 }
 
-#slider-image-1:target ~ .image-holder
-{
+#slide-1:target ~ .image-holder {
     left: 0px;
 }
 
-#slider-image-2:target ~ .image-holder
+#slide-2:target ~ .image-holder
 {
     left: -800px;
 }
 
-#slider-image-3:target ~ .image-holder
+#slide-3:target ~ .image-holder
 {
     left: -1600px;
 }
 
-.button-holder
+.my-button-holder
 {
     position: relative;
     top: -20px;
 }
 
-.slider-change
+.my-slider-button
 {
     display: inline-block;
     height: 10px;
