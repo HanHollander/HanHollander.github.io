@@ -36,12 +36,15 @@
     left: -200%;
 }
 
+.my-button-holder {
+    width: 100%;
+}
+
 .my-slider-button {
     padding:0px;
     padding-top:5px;
     display: inline-block;
     height: 15px;
-    width: 32%;
 }
 
 
