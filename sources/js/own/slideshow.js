@@ -22,7 +22,7 @@ function slideshowbutton(curID) {
 }
 
 function slideshowpicture(curID) {
-    var fig = document.getElementsById("slider-figure");
+    var fig = document.getElementById("slider-figure");
     fig.style.left = (100 * curID) + "%";
 }
 
