@@ -1,5 +1,6 @@
 .my-slide {
-    display:none;
+    position:relative;
+    opacity: 0;
     padding-left:32;
     padding-right:32;
     animation:my-fading 2s;
@@ -18,8 +19,8 @@
     width:85%;
 }
 @keyframes my-fading {
-    0% {opacity:0}
-    33% {opacity:20%}
+    0% {opacity:40%}
+    33% {opacity:60%}
     66% {opacity:80%}
     100% {opacity:1}
 }
