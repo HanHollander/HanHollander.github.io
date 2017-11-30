@@ -1,7 +1,8 @@
 var cs = 0;
 var slides = 3;
-slideshowauto();
 var sf = document.getElementById("slider-figure");
+sf.style.left="0%";
+slideshowauto();
 
 function slideshowauto() {
     slideshowbutton(cs);
@@ -9,7 +10,6 @@ function slideshowauto() {
     setTimeout(slideshowauto, 2000);
 }
 
-sf.style.left="0%";
 function slideshowbutton(curID) {
     var bs = document.getElementsByClassName("my-slider-button");
     var i;
