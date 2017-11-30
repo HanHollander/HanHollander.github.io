@@ -12,7 +12,7 @@
     font-size: 0;
     text-align: left;
 
-    animation: 3s slideshow infinite;
+    /*animation: 3s slideshow infinite;*/
 
     -webkit-transition: left 2s;
     -moz-transition: left 2s;
@@ -37,8 +37,6 @@
 }
 
 .my-button-holder {
-    width: 100%;
-    height: auto;
 }
 
 .my-slider-button {
