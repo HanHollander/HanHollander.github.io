@@ -38,9 +38,10 @@
 
 .my-slider-button {
     padding:0px;
+    padding-top:5px;
     display: inline-block;
     height: 15px;
-    width: 33%;
+    width: 32%;
 }
 
 
