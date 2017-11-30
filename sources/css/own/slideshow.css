@@ -23,6 +23,22 @@
     float: left;
 }
 
+
+#slide-1 {
+    left: 0%;
+}
+#slide-2 {
+    left: -100%;
+}
+#slide-3 {
+    left: -200%;
+}
+
+
+
+
+
+
 @@keyframes slidshow {
     0%  { left: 0%; }
 	25% { left: 0%; }
