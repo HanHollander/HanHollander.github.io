@@ -1,9 +1,9 @@
 .my-slider {
-    width: 80%;
+    width: 95%;
     max-width: 1368px;
     overflow: hidden;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .my-slider figure {
