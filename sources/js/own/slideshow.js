@@ -15,9 +15,9 @@ function slideshowbutton(curID) {
     var bs = document.getElementsByClassName("my-slider-button");
     var i;
     for (i = 0; i < bs.length; i++) {
-        bs[i].style.backgroundColor = "#d7d7d7";
+        bs[i].style.backgroundColor = "#e2e2e2";
     }
-    bs[curID].style.backgroundColor = "#c6c6c6";
+    bs[curID].style.backgroundColor = "#313131";
     slideshowpicture(curID);
     cs = curID
 }
