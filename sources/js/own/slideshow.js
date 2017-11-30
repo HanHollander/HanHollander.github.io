@@ -6,7 +6,7 @@ var sf = document.getElementById("slider-figure");
 function slideshowauto() {
     slideshowbutton(cs);
     cs = (cs) % slides;
-    setTimeout(slideshowauto(cs), 2000);
+    setTimeout(slideshowauto(), 2000);
 }
 
 sf.style.left="0%";
