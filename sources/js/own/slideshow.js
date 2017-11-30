@@ -1,5 +1,5 @@
 bs[0].style.backgroundColor = "#d0d0d0"
-function slidshowbutton(var curID) {
+function slideshowbutton(var curID) {
     var bs = document.getElementsByClassName("my-slider-button");
     var i;
     for (i = 0; i < length(bs); i++) {
