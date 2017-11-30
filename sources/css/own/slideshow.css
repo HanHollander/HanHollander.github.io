@@ -11,6 +11,9 @@
     padding: 0;
     font-size: 0;
     text-align: left;
+
+    animation: 30s slideshow infinite;
+
     -webkit-transition: left 2s;
     -moz-transition: left 2s;
     -o-transition: left 2s;
@@ -37,19 +40,22 @@
     padding:0px;
     display: inline-block;
     height: 10px;
-    width: 32%;
+    width: 33.33%;
 }
 
 
 
-@@keyframes slidshow {
+@@keyframes slideshow {
     0%  { left: 0%; }
 	25% { left: 0%; }
+    /*TRANSITION*/
 	33.33% { left: -100%; }
 	57.33% { left: -100%; }
+    /*TRANSITION*/
 	66.67% { left: -200%; }
 	91.67% { left: -200%; }
-	100% { left: -300%; }
+    /*TRANSITION*/
+	100% { left: 0%; }
 }
 
 
