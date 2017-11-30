@@ -29,15 +29,15 @@
     position: relative;
 }
 
-#slide-1:target ~ .image-holder {
+#slide-1:target ~ .my-slide {
     left: 0px;
 }
 
-#slide-2:target ~ .image-holder {
+#slide-2:target ~ .my-slide {
     left: -1368px;
 }
 
-#slide-3:target ~ .image-holder {
+#slide-3:target ~ .my-slide {
     left: -2736px;
 }
 
