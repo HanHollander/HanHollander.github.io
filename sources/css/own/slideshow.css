@@ -50,6 +50,5 @@
 .my-slider-button {
     display: inline-block;
     height: 10px;
-    width: 33%;
-    border-radius: -5px;
+    width: 33.333333333333333%;
 }
