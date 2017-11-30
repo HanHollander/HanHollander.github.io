@@ -1,5 +1,5 @@
 .my-slideshow {
-    width: 800px;
+    width: 1368px;
     height: 400px;
     background-color: yellow;
     margin-left: auto;
@@ -10,7 +10,7 @@
 }
 
 .my-slide-holder {
-    width: 2400px;
+    width: 4104px;
     background-color: red;
     height: 400px;
     clear: both;
@@ -34,11 +34,11 @@
 }
 
 #slide-2:target ~ .image-holder {
-    left: -800px;
+    left: -1368px;
 }
 
 #slide-3:target ~ .image-holder {
-    left: -1600px;
+    left: -2736px;
 }
 
 .my-button-holder {
