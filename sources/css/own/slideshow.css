@@ -23,13 +23,13 @@
     float: left;
 }
 
-#slide-1:target ~ .my-slide-holder {
+#slide-1:target ~ .my-slider figure {
     left: 0%;
 }
-#slide-2:target ~ .my-slide-holder {
+#slide-2:target ~ .my-slider figure {
     left: -100%;
 }
-#slide-3:target ~ .my-slide-holder {
+#slide-3:target ~ .my-slider figure {
     left: -200%;
 }
 
