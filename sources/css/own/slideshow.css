@@ -24,13 +24,13 @@
 }
 
 
-#slide-1 {
+#slide-1:target ~ .my-slide-holder {
     left: 0%;
 }
-#slide-2 {
+#slide-2:target ~ .my-slide-holder {
     left: -100%;
 }
-#slide-3 {
+#slide-3:target ~ .my-slide-holder {
     left: -200%;
 }
 
