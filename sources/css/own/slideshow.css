@@ -44,8 +44,8 @@
     padding:0px;
     display: inline-block;
     height: 25px;
-    border-width: 0px 5px 0px 5px;
     border-color: #dddddd;
+    margin: 0px 5px 0px 5px;
 }
 
 @@keyframes slideshow {
