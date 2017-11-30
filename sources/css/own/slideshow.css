@@ -1,6 +1,6 @@
 .my-slideshow {
     width: 1368px;
-    height: 360px;
+    height: 450px;
     background-color: yellow;
     margin-left: auto;
     margin-right: auto;
@@ -12,7 +12,7 @@
 .my-slide-holder {
     width: 4104px;
     background-color: red;
-    height: 360px;
+    height: 450px;
     clear: both;
     position: relative;
 
