@@ -46,7 +46,7 @@
     display: inline-block;
     height: 15px;
     width: 33.33%;
-    width: calc(100% / 3);
+    width: calc(100% / 3 * 0.99);
 }
 
 
