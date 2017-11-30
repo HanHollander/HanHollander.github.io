@@ -35,11 +35,11 @@
 }
 
 #slide-2:target ~ .my-slide-holder {
-    left: -1368px;
+    left: -100%;
 }
 
 #slide-3:target ~ .my-slide-holder {
-    left: -2736px;
+    left: -200%;
 }
 
 .my-button-holder {
