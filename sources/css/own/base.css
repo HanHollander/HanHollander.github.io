@@ -72,13 +72,13 @@ p {
 /* 16px @ 480px increasing to 32px @ 1920px */
 @media (min-width: 480px) {
   :root {
-    font-size: calc(1rem + ((1vw - 4.8px) * 1.1111));
+    font-size: calc(1rem + ((1vw - 4.8px) * 1.1111))!important;
     /* Where: * 1.1111 = 100 * font_Size_Difference / viewport_Width_Difference */
   }
 }
 /* Prevent font scaling beyond this breakpoint */
 @media (min-width: 1920px) {
   :root {
-    font-size: 32px;
+    font-size: 32px !important;
   }
 }
