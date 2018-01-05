@@ -68,3 +68,11 @@ p {
 .my-page {
     padding: 16px 0px 16px 0px;
 }
+
+.my-text {
+    width: 80%;
+    max-width: 1368px;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
