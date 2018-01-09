@@ -81,6 +81,6 @@ p {
     /* width: calc(1368px*0.3) !important; */
     border-radius: 20px;
     border: 5px solid #ffffff;
-    padding: 20px;
+    /* padding: 20px; */
     box-shadow: 5px 5px 8px #888888;
 }
